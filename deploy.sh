@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+sudo chmod +x ./production/deploy.sh
 echo "Deployment started ..."
 
 # Enter maintenance mode or return true
